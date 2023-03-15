@@ -22,7 +22,7 @@ int main()
     auto fun = [](auto c1, auto c2) { return (0b11000000 & char(c2)) == 0b10000000; };
     auto v = str | vw::chunk_by(fun); // 切分完毕
 
-    // 统计字符串
+    // 统计字符数
     std::cout<<"字符数："<<ranges::distance(v)<<"\n";
     for(auto vv: v) {
         for(auto c: vv) {
