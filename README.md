@@ -24,6 +24,6 @@ utf8编码：
 
 获取长度，用ranges::distance(v);
 
-获取第N个字符，用v | drop(N-1) | take(1);
+获取第N个字符(N从0开始)，用v | drop(N) | take(1);
 
-substr(N, M)，用v | drop(N-1) | take(M);
+substr(N, M)，用v | drop(N) | take(M);
