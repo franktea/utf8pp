@@ -14,7 +14,7 @@ int main()
     std::u8string str = u8"我是瓜王mel1，没瓜吃就喷人";
     std::cout<<"字节数: "<<str.length()<<"\n";
     for(auto c: str) {
-        std::cout<< fmt::format("{0:b}", char(c)) << " ";
+        std::cout<< fmt::format("{0:08b}", char(c)) << " ";
     }
     std::cout<<"\n\n";
 

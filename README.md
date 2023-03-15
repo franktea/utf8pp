@@ -1,6 +1,15 @@
 # utf8pp
 utf8编码在C++中的操作方法示例
 
+运行方法：
+```
+git clone https://github.com/franktea/utf8pp;
+mkdir -p build;
+cd build;
+cmake ..;
+make
+```
+
 utf8编码：
 ```
 1字节 0xxxxxxx
